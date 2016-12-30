@@ -32,13 +32,5 @@ public class Main {
         InputEventQueue ieq = new InputEventQueue(cperson);
         ieq.start();
 
-/*
-        String command = "";
-        do
-        {
-
-        }
-        while (true);
-        */
     }
 }

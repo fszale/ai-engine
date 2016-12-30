@@ -2,6 +2,7 @@ package com.ai.engine;
 
 import com.ai.input.*;
 import com.ai.storage.*;
+import com.ai.visualization.VisualizationFactory;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -54,6 +55,10 @@ public class InputEventQueue extends Thread {
                     case "train.":
                         String name = InputFromKeyboard.readInputLine("Name to train? (default is 'AI Person')\n\r");
                         cperson = PersonaFactory.get(name);
+                        break;
+
+                    case "show.":
+                        VisualizationFactory.showNeurons();
                         break;
 
                     case "status.":

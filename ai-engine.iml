@@ -7,7 +7,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="ai-input" />
-    <orderEntry type="module" module-name="ai-storage" />
+    <orderEntry type="module" module-name="ai-input" exported="" />
+    <orderEntry type="module" module-name="ai-storage" exported="" />
+    <orderEntry type="module" module-name="ai-visualization" exported="" />
   </component>
 </module>
